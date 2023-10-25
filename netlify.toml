@@ -2,7 +2,7 @@
 [build]
   command = "yarn build"
   functions = "netlify/functions"
-  base="frontend/"
+  base="frontend"
   publish = "dist"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
